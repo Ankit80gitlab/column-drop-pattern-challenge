@@ -1,0 +1,81 @@
+.btn1 {
+    border: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 8px;
+    margin-left: 30px;
+
+
+}
+
+.btn2 {
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 7px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.space
+{
+    border: 1px solid rgba(248,249,250,255);
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(248,249,250,255);
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .box {
+        background-color: rgba(220, 65, 70, 255);
+        text-align: center;
+    }
+
+    .b {
+        background-color: rgba(220, 65, 70, 255);
+        margin-top: 20px;
+        color: white;
+        font-size: 12px;
+        margin-left: 110px;
+    }
+
+    .c {
+        width: 60px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .para2 {
+        display: none;
+    }
+
+    .card1,.card2,.card3 {
+        border: 1px;
+        margin-top: 20px;
+        width: 10rem;
+    }
+
+    .list-group-item {
+        font-size: 15px;
+    }
+
+    .card-header {
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .svgg {
+        width: 100px;
+    }
+
+    .c1,.c2
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .c1,.c2
+    {
+        color: white;
+        font-size: 12px;
+    }
+    .box2
+    {
+        display: none;
+    }
+}

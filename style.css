@@ -1,0 +1,165 @@
+.btn1 {
+    border: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 8px;
+    margin-left: 30px;
+
+
+}
+
+.btn2 {
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 7px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.space
+{
+    border: 1px solid rgba(248,249,250,255);
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(248,249,250,255);
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    .para1 {
+        display: none;
+
+    }
+    .box2 {
+        background-color: rgba(220, 65, 70, 255);
+        text-align: center;
+    }
+
+    .b2 {
+        background-color: rgba(220, 65, 70, 255);
+        margin-top: 20px;
+        color: white;
+        font-size: 12px;
+        margin-left: 100px;
+    }
+
+    .c2 {
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .c12,.c22
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .c12,.c22
+    {
+        color: white;
+        font-size: 12px;
+    }
+    .box
+    {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:576px) {
+    .para2 {
+        display: none;
+    }
+}
+
+.desc {
+    border: 1px;
+    margin-bottom: 15px;
+}
+
+.para2 {
+    border: 1px;
+    margin-bottom: 40px;
+}
+
+.para1 {
+    border: 1px;
+    margin-bottom: 40px;
+}
+
+.d1 {
+    border: 1px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.d2 {
+    border: 1px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    
+
+    .p1,
+    .p2,
+    .p3 {
+        border: 1px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 15px;
+        width: 370px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        border: 1px;
+        margin-top: 20px;
+        margin-left: 30px;
+        width: 22rem;
+    }
+
+    .list-group-item {
+        font-size: 15px;
+    }
+
+    .svgg {
+        width: 50px;
+
+    }
+
+    .f11,
+    .f13 {
+        float: left;
+        margin-top: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .f1 {
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+
+    .contain1 {
+        margin-top: 80px;
+        border: 1px solid rgba(220, 65, 70, 255);
+        background-color: rgba(220, 65, 70, 255);
+        height: 190px;
+    }
+
+    .card-header {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .contain1 {
+        display: none;
+    }
+    
+}
